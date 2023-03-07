@@ -13,13 +13,13 @@ int main (){
         }
         printf("\n");
         }
-        for(a=5;a>=2;a--)
+        for(a=2;a<=5;a++)
         {
-        for(c=a-1;c<5;c++)
+        for(c=a;c>1;c--)
         {
             printf(" ");
         }
-        for(b=2;b<=a;b++)
+        for(b=a;b<=5;b++)
         {
             printf("%d",b);
         }
